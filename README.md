@@ -1,4 +1,4 @@
-# 🔐 Auth API - Node.js + Express + MongoDB
+# 🔐 Auth API - Node.js + Express + PostgresSQL
 
 This is a basic authentication API with signup, login, and JWT-based protected routes.
 
@@ -12,8 +12,7 @@ This is a basic authentication API with signup, login, and JWT-based protected r
 ## Tech Stack
 - Node.js
 - Express.js
-- MongoDB
-- Mongoose
+- PostgreSQL
 - JWT
 
 ## Routes
@@ -29,5 +28,5 @@ git clone https://github.com/your-username/auth-api
 cd auth-api
 npm install
 cp .env.example .env
-# Fill in your Mongo URI and JWT_SECRET in .env
+# Fill in your PG URI and JWT_SECRET in .env
 npm run dev
